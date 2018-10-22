@@ -1,5 +1,9 @@
-# Project to build an Employee List with features of Angular5 (Create, Read, Update & Delete)
+# Employee Database UI Angular (Create, Read, Update & Delete)
 
+## Project Brief
+A Project to build an Employee List with features of Angular5 (Create, Read, Update & Delete)
+
+## Version
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.2.
 
 ## Development server
