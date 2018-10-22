@@ -20,7 +20,7 @@ export class ListEmployeesComponent implements OnInit {
     },
     {
       id: 2,
-      name: "Shah",
+      name: "Shahriar",
       gender: "Male",
       contactPreference: "Phone",
       phoneNumber: 2435678769,
