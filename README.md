@@ -1,4 +1,4 @@
-# AngularCrud
+# Project to build an Employee List with features of Angular5 (Create, Read, Update & Delete)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.2.
 
