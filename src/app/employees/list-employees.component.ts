@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { Employee } from '../models/employee.model';
 
 @Component({
-  selector: 'app-list-employees',
   templateUrl: './list-employees.component.html',
   styleUrls: ['./list-employees.component.css']
 })
@@ -40,17 +39,17 @@ export class ListEmployeesComponent implements OnInit {
       department: "IT",
       isActive: false,
       photoPath: "../../assets/images/employee3.jpg"
-    }, 
+    },
     {
       id: 4,
-      name: "Susan",
-      gender: "Female",
+      name: "Sunil",
+      gender: "Male",
       contactPreference: "Email",
       email: "susan@gmail.com",
       dateOfBirth: new Date("5/4/1994"),
       department: "IT",
       isActive: true,
-      photoPath: "../../assets/images/employee3.jpg"
+      photoPath: "../../assets/images/employee4.jpg"
     }
   ];
   constructor() { }
