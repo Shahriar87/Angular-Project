@@ -1,8 +1,8 @@
-# UI Interface using Angular CRUD(Create, Read, Update & Delete)
+# UI using Angular CRUD(Create, Read, Update & Delete)
 ![alt text](src/assets/images/Screenshot.png)
 
 ## Project Brief
-A Project to build an Employee Database UI Interface with Angular, Bootstrap & Node Package Manager(Create, Read, Update & Delete)
+A Project to build an Employee Database UI with Angular, Bootstrap & Node Package Manager(Create, Read, Update & Delete)
 
 ## Project Tools & Version
 This project was generated with: 
