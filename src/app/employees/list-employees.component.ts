@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 })
 export class ListEmployeesComponent implements OnInit {
   employees: Employee[];
+  searchTerm: string;
   // employeeToDisplay: Employee;
   // private arrayIndex = 1;
   constructor(private _employeeService: EmployeeService,
@@ -28,12 +29,18 @@ export class ListEmployeesComponent implements OnInit {
   //   }
   // }
 
+  changeEmployeeName(){
+    this.employees[0].name = 'Sordan';
+    // const newEmployeeArray: Employee[]= Object.assign([], this.employees);
+    // newEmployeeArray[0].name = 'Jordan';
+    // this.employees = newEmployeeArray;
+
+  }
+
   onClick(employeeId: number){
     this._router.navigate(['/employees', employeeId])
   }
 
-
-
-
+  
 
 }

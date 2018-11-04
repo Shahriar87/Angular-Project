@@ -51,7 +51,10 @@ export class CreateEmployeeComponent implements OnInit {
   }
 
   saveEmployee(): void {
-    this._employeeService.save(this.employee);
+    // CLONING newEmployee FROM employee AS A COMPLETELY NEW OBJECT WITH OBJECT ASSIGN METHOD
+    const newEmployee: Employee = Object.assign({}, this.employee);
+    this._employeeService.save(newEmployee);
+    this.createEmployeeForm.reset();
     this._router.navigate(['list']);
   };
 
