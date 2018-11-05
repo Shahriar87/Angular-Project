@@ -5,7 +5,7 @@ import { Employee } from '../models/employee.model';
 
 @Pipe({
     name: 'employeeFilter',
-    pure: true   
+    pure: false   
 })
 
 export class EmployeeFilterPipe implements PipeTransform {
