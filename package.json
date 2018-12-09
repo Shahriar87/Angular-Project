@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --prod"
+    "postinstall": "ng build --aot -prod",
+    "start": "node server.js"
   },
   "private": true,
   "dependencies": {
@@ -29,6 +29,7 @@
     "ngx-bootstrap": "^3.0.1",
     "path": "^0.12.7",
     "rxjs": "~6.3.3",
+    "save": "^2.3.3",
     "typescript": "~3.1.1",
     "zone.js": "~0.8.26"
   },
